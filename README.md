@@ -60,7 +60,7 @@ You can run this project locally in **Visual Studio Code** using the **Live Serv
 ### Steps:
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/interactive-map.git
+   git clone https://github.com/Sachinkumar8439/Interactive-Map.git
    cd interactive-map
    ```
 
@@ -85,12 +85,6 @@ You can run this project locally in **Visual Studio Code** using the **Live Serv
    ```
    http://127.0.0.1:5500/
    ```
-
----
-
-## 📸 Screenshots
-
-> *(Add screenshots or demo GIFs here once available)*
 
 ---
 
