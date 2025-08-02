@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Map Project</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="controls">
+      <div class="search-container">
+        <input type="text" id="cityInput" placeholder="Enter city name">
+        <select id="categorySelect">
+          <option value="restaurant">Restaurants</option>
+          <option value="park">Parks</option>
+          <option value="hospital">Hospitals</option>
+        </select>
+        <button id="searchBtn">Search</button>
+      </div>
+      <button id="addMarkerBtn">Add Marker</button>
+      <button id="showLandmarksBtn">Show Landmarks</button>
+    </div>
+    <div id="map"></div>
+  </div>
+
+  <div id="markerForm" class="marker-form" style="display: none;">
+    <h3>Create New Marker</h3>
+    <form id="newMarkerForm">
+      <label for="markerName">Name:</label>
+      <input type="text" id="markerName" required>
+      
+      <label for="markerDesc">Description:</label>
+      <textarea id="markerDesc" rows="3" required></textarea>
+      
+      <label for="markerImage">Image URL (optional):</label>
+      <input type="url" id="markerImage">
+      
+      <div class="form-buttons">
+        <button type="button" id="cancelMarkerBtn">Cancel</button>
+        <button type="submit">Create Marker</button>
+      </div>
+    </form>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
