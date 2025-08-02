@@ -7,8 +7,11 @@ Built using **HTML, CSS, JavaScript, Leaflet.js**, and external map APIs.
 
 ##  Screenshots
 ![landing View](images/landingview.JPG)
+all points of interests are visible when open the website 
 ![filter view](images/filterview.JPG)
+user can filter category wise for a city
 ![creating popup for custom marker](images/custommarker.JPG)
+create a costom marker where no marker present previously
 
 ## ✨ Features
 
