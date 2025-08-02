@@ -6,9 +6,9 @@ Built using **HTML, CSS, JavaScript, Leaflet.js**, and external map APIs.
 ---
 
 ##  Screenshots
-![landing View](landingview.JPG)
-![filter view](filterview.JPG)
-![creating popup for custom marker](custommarker.JPG)
+![landing View](images/landingview.JPG)
+![filter view](images/filterview.JPG)
+![creating popup for custom marker](images/custommarker.JPG)
 
 ## ✨ Features
 
@@ -42,9 +42,10 @@ Built using **HTML, CSS, JavaScript, Leaflet.js**, and external map APIs.
 ```
 interactive-map/
 │── index.html       # Main HTML file
-│── style.css        # Styles for the map and UI
+│── styles.css        # Styles for the map and UI
 │── script.js        # Core JavaScript logic
 │── README.md        # Project documentation
+|── images           # project demo images 
 ```
 
 ---
