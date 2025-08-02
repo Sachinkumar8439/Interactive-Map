@@ -18,59 +18,58 @@ const landmarks = [
     lat: 27.1751,
     lng: 78.0421,
     desc: "A stunning mausoleum in Agra, India.",
-    img: "https://via.placeholder.com/150?text=Taj+Mahal",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Taj_Mahal_in_India_-_Kristian_Bertel.jpg/800px-Taj_Mahal_in_India_-_Kristian_Bertel.jpg",
   },
   {
     name: "Eiffel Tower",
     lat: 48.8584,
     lng: 2.2945,
     desc: "Iconic landmark in Paris, France.",
-    img: "https://via.placeholder.com/150?text=Eiffel+Tower",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Tour_Eiffel_Wikimedia_Commons.jpg/800px-Tour_Eiffel_Wikimedia_Commons.jpg",
   },
   {
     name: "Great Wall of China",
     lat: 40.4319,
     lng: 116.5704,
     desc: "Historic wall spanning northern China.",
-    img: "https://via.placeholder.com/150?text=Great+Wall",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/The_Great_Wall_of_China_at_Jinshanling.jpg/800px-The_Great_Wall_of_China_at_Jinshanling.jpg",
   },
   {
     name: "Machu Picchu",
     lat: -13.1631,
     lng: -72.545,
     desc: "Ancient Incan city in Peru.",
-    img: "https://via.placeholder.com/150?text=Machu+Picchu",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Machu_Picchu%2C_Peru.jpg/800px-Machu_Picchu%2C_Peru.jpg",
   },
   {
     name: "Colosseum",
     lat: 41.8902,
     lng: 12.4922,
     desc: "Ancient amphitheater in Rome, Italy.",
-    img: "https://via.placeholder.com/150?text=Colosseum",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Colosseo_2020.jpg/800px-Colosseo_2020.jpg",
   },
   {
     name: "Petra",
     lat: 30.3285,
     lng: 35.4444,
     desc: "Archaeological city in Jordan.",
-    img: "https://via.placeholder.com/150?text=Petra",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Treasury_petra_crop.jpeg/800px-Treasury_petra_crop.jpeg",
   },
   {
     name: "Christ the Redeemer",
     lat: -22.9519,
     lng: -43.2105,
     desc: "Iconic statue in Rio de Janeiro, Brazil.",
-    img: "https://via.placeholder.com/150?text=Christ+Redeemer",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Aerial_view_of_the_Christ_the_Redeemer_statue.jpg/800px-Aerial_view_of_the_Christ_the_Redeemer_statue.jpg",
   },
   {
     name: "Pyramids of Giza",
     lat: 29.9792,
     lng: 31.1342,
     desc: "Ancient pyramids in Egypt.",
-    img: "https://via.placeholder.com/150?text=Pyramids",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Kheops-Pyramid.jpg/800px-Kheops-Pyramid.jpg",
   },
 ];
-
 let currentMarkers = [];
 let addMarkerMode = false;
 let tempMarker = null;
